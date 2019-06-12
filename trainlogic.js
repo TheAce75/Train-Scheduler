@@ -17,10 +17,10 @@ var database = firebase.database();
 $("#add-train-btn").on("click", function(event) {
     event.preventDefault();
 
-var trainName = $("#train-name-input").val().trim();
-var destination = $("#destination-input").val().trim();
-var firstTraintime = $("#train-time-input").val().trim();
-var frequency = $("#frequency-input").val().trim();
+var trainName = $(".train-name-input").val().trim();
+var destination = $(".destination-input").val().trim();
+var firstTraintime = $(".train-time-input").val().trim();
+var frequency = $(".frequency-input").val().trim();
 
 console.log(trainName);
 console.log(destination);
